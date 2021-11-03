@@ -1,0 +1,73 @@
+@media only screen and (max-width: 991px) {
+  .wsmenu-list {
+    overflow: scroll;
+    height: 100vh !important;
+  }
+}
+.slickmargin .slick-slide {
+  padding: 0 10px;
+}
+.slickmargin .slick-dots li button:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  opacity: 1;
+  border-radius: 50%;
+}
+.slickmargin .slick-dots li.slick-active button:before {
+  background: #869791;
+}
+
+body {
+  direction: rtl;
+}
+
+.wsmenu > .wsmenu-list > li {
+  float: right;
+}
+
+.fbox-ico {
+  float: right;
+  margin-top: 4px;
+  text-align: right;
+}
+.flaticon-puzzle:before {
+  content: "\f106";
+}
+
+.flaticon-double-click:before {
+  content: "\f16f";
+}
+.flaticon-server-1:before {
+  content: "\f152";
+}
+.flaticon-shield:before {
+  content: "\f105";
+}
+.flaticon-folder-3:before {
+  content: "\f171";
+}
+
+.flaticon-share:before {
+  content: "\f149";
+}
+
+.elementor-button-text {
+  color: #6a26da;
+  display: inline-block;
+  padding: 6px 24px;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background-color: rgba(106, 38, 218, .08);
+  letter-spacing: 0.5px;
+  margin-bottom: 35px;
+  line-height: 1.6666;
+  padding: 10px;
+}
+
+.review-1-txt p {
+  text-align: right;
+}
